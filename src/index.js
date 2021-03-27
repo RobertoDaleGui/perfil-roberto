@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './fonts/style.css';
+
+import Menu from './containers/Menu';
+import Background from './containers/Background';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Background>
+      <Menu />
+      <div className='box'></div>
+    </Background>
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

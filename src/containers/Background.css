@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(#A63A56, #933C5B, #2A1938) ;
+  /* background-image: url('./img/background.png'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.palm {
+  height: 350px;
+  transform: scaleX(-1);
+  opacity: 0.2;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+}
+  
+  .palm2 {
+    height: 350px;
+    transform: scaleX(-1);
+    opacity: 0.2;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -5;
+  }
+  
+  .background {
+    background: repeating-linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0) 10px,
+      rgba(251, 5, 231, 0.1) 10px,
+      rgba(255, 255, 255, 0.14) 11px
+    );
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -5;
+  }
+  
