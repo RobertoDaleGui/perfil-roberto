@@ -1,0 +1,19 @@
+.sideMenu {
+    font-family: 'broadway_becker_stencilRg';
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.sideMenu li{
+    list-style: none;
+}
+
+.sideMenu a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    transition-duration: 0.5s;
+}
+
+.sideMenu a:hover {
+    color: #0DD9C4;
+}

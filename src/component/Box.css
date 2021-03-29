@@ -1,0 +1,29 @@
+.box {
+    background-color: rgba(87, 207, 255, 0.3);
+    color: black;
+    border: solid 2px #57cfff;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    height: 70%;
+    width: 60%;
+    z-index: -1;
+    font-family: IBM CGA-2y;
+    padding: 15px;
+  }
+  
+  .box h3 {
+    color: #ffee57;
+  }
+  
+  .box p {
+    color: #6857ff;
+  }
+  
+  .box boolT {
+    color: #7eff57;
+  }
+  
+  .box boolF {
+    color: #ff5757;
+  }

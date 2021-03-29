@@ -8,6 +8,7 @@ function Background(props) {
     <div>
       {props.children}
       <div className='background'></div>
+      <div className='sun'></div>
       <img className='palm2' src={palm2} alt='' />
       <img className='palm' src={palm1} alt='' />
     </div>
